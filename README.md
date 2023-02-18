@@ -19,6 +19,6 @@ use:
   
   for(int = i; i < Scanner->AddressesCount; i++)  <br>
     {  <br>
-      // adress Scanner->AddressesCount[i][0];  <br>
-      // error if was Scanner->AddressesCount[i][1]  <br>
+      // adress = Scanner->AddressesCount[i][0];  <br>
+      // if was error with address communication = Scanner->AddressesCount[i][1] == nr error (4) <br>
     }  <br>
