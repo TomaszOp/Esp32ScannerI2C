@@ -16,6 +16,7 @@ use:
   Scanner.PrintToUart();
   
   or
+  
   for(int = i; i < Scanner->AddressesCount; i++)
     {
       // adress Scanner->AddressesCount[i][0];
