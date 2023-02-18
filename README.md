@@ -19,6 +19,6 @@ use:
   
   for(int = i; i < Scanner->AddressesCount; i++)  <br>
     {  <br>
-      // adress = Scanner->AddressesCount[i][0];  <br>
-      // if was error with address communication = Scanner->AddressesCount[i][1] == nr error (4) <br>
+      // adress I2C = Scanner->AddressesCount[i][0];  <br>
+      // if was error with address communication, Scanner->AddressesCount[i][1] = error,  0 without error <br>
     }  <br>
