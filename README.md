@@ -12,13 +12,13 @@ use:
 
   Scanner.Scan();
   
-  
+  <br>
   Scanner.PrintToUart();
   
   or
   
-  for(int = i; i < Scanner->AddressesCount; i++)
-    {
-      // adress Scanner->AddressesCount[i][0];
-      // error if was Scanner->AddressesCount[i][1]
-    }
+  for(int = i; i < Scanner->AddressesCount; i++)  <br>
+    {  <br>
+      // adress Scanner->AddressesCount[i][0];  <br>
+      // error if was Scanner->AddressesCount[i][1]  <br>
+    }  <br>
