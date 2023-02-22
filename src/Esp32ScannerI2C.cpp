@@ -58,7 +58,7 @@ void Esp32ScannerI2C::Scan(int debug)
 {
   this->clear();
 
-  Wire.begin();
+  Wire.begin(this->SdaPin, this->SclPin);
   
   byte error, address;
   int nDevices;
